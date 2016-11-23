@@ -15,7 +15,6 @@
 LOCAL_PATH:= $(call my-dir)
 
 # Subprojects with separate makefiles
-subdirs := update_test_app
 subdir_makefiles := $(call all-named-subdir-makefiles,$(subdirs))
 
 # Library of tools classes for tzdata updates. Not required on device, except in tests.
